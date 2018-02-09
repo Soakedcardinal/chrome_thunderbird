@@ -1,0 +1,6 @@
+body {color: white !important; background-color: black !important;}
+:link {color: #aaf !important;}
+@-moz-document url-prefix(mailbox:) {
+ body {color: white !important; background-color: black !important;}
+:link {color: #aaf !important;} /* all the other rules go here */
+  }
